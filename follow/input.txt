@@ -1,25 +1,22 @@
 S->SA
-S->e
 A->B
 A->T
-B->CD
+B->CD;
 C->f
 C->g
 D->D,E
 D->E
 E->c
 E->c=M
-T->e c()
+T->ec()G
 F->FB
 F->FH
-F->e
 H->K;
 H->G
 H->L
-H->T
 H->;
-L->d H
-G->{f}
+L->d(M)H
+G->{F}
 K->c=M
 M->M>N
 M->M>=N
